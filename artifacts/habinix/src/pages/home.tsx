@@ -9,7 +9,7 @@ export default function Home() {
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden bg-primary">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/hero-bg.png" 
+            src="/hero-bg.jpg" 
             alt="Corporate IT background" 
             className="w-full h-full object-cover opacity-30 mix-blend-overlay"
           />
