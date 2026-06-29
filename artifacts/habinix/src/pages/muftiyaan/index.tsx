@@ -8,7 +8,7 @@ export default function MuftiyaanHome() {
       <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden bg-[#0f172a]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/muftiyaan-bg.png" 
+            src="/muftiyaan-bg.jpg" 
             alt="Muftiyaan Islamic Pattern Background" 
             className="w-full h-full object-cover opacity-20"
           />
@@ -55,7 +55,7 @@ export default function MuftiyaanHome() {
               className="hidden md:flex justify-center"
             >
               <img 
-                src="/muftiyaan-mockup.png" 
+                src="/muftiyaan-mockup.jpg" 
                 alt="Muftiyaan App Interface Mockup" 
                 className="max-h-[80vh] w-auto drop-shadow-2xl"
               />
