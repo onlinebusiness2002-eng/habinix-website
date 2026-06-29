@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "oyN74XjuMi7ZRcI6Mh_2a"
+uri = "file://artifacts/habinix/public/hero-bg.png"
+type = "image"
+title = "Corporate IT background"
+
+[[generated]]
+id = "bD4xrfrVHK8w_jgy5K7Qq"
+uri = "file://artifacts/habinix/public/muftian-bg.png"
+type = "image"
+title = "Muftian hero background"
+
+[[generated]]
+id = "v9UiAb-Y7SPjsvq7JXCH8"
+uri = "file://artifacts/habinix/public/muftian-mockup.png"
+type = "image"
+title = "Muftian app mockup"
