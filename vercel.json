@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm install && pnpm --filter @workspace/habinix exec vite build --config vite.config.vercel.ts",
+  "outputDirectory": "artifacts/habinix/dist",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
