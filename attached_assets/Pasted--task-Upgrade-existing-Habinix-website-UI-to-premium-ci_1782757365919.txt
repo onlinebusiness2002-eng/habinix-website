@@ -1,0 +1,67 @@
+{
+  "task": "Upgrade existing Habinix website UI to premium cinematic enterprise level design",
+  "instruction": "Do NOT rebuild the website. ONLY improve design, UI, spacing, typography, animations, and visual hierarchy while keeping all existing functionality intact.",
+
+  "uiUpgradeGoals": {
+    "lookAndFeel": "Make the website look like a top global tech company (Stripe, Vercel, OpenAI level)",
+    "style": "Cinematic, premium, modern, dark-mode first with deep blue aesthetic",
+    "impression": "High-end technology brand with AI-driven innovation identity"
+  },
+
+  "designImprovements": {
+    "layout": [
+      "Increase whitespace between sections for premium breathing space",
+      "Improve grid alignment for all sections",
+      "Add consistent container width system (max-width alignment)"
+    ],
+    "typography": [
+      "Upgrade font hierarchy (H1 must be bold, large, cinematic)",
+      "Improve line spacing for readability",
+      "Use modern SaaS-style typography system"
+    ],
+    "colors": [
+      "Enhance deep blue theme with subtle gradients",
+      "Add glowing cyan accent highlights for CTAs",
+      "Ensure consistent color harmony across all pages"
+    ],
+    "components": [
+      "Redesign cards with soft glow + glassmorphism effect",
+      "Improve buttons with hover animation + depth shadow",
+      "Upgrade service cards to premium SaaS style blocks"
+    ],
+    "animations": [
+      "Add smooth fade-in on scroll",
+      "Add subtle parallax effects for hero section",
+      "Add hover micro-interactions on all clickable elements"
+    ]
+  },
+
+  "heroSectionUpgrade": {
+    "requirements": [
+      "Make hero section cinematic with strong visual hierarchy",
+      "Add gradient background with subtle animated glow",
+      "Make headline bold, large, and impactful",
+      "Add dual CTA buttons with premium styling",
+      "Ensure hero immediately communicates AI + enterprise identity"
+    ]
+  },
+
+  "uxImprovement": {
+    "rules": [
+      "Every section must have clear purpose",
+      "Improve CTA visibility across entire site",
+      "Ensure smooth scroll experience",
+      "Make navigation minimal and premium"
+    ]
+  },
+
+  "performance": {
+    "rules": [
+      "Do not break existing functionality",
+      "Do not add heavy libraries unnecessarily",
+      "Keep website fast and optimized"
+    ]
+  },
+
+  "finalGoal": "Transform current website into a cinematic, enterprise-grade AI technology company website with premium visual identity and world-class UI/UX without changing core structure."
+}

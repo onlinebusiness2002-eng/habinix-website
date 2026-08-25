@@ -1,0 +1,168 @@
+{
+  "projectName": "Habinix LLC Website",
+  "version": "1.0",
+  "type": "Enterprise Digital Platform",
+  "roleInstruction": "You are an expert Senior Full-Stack Software Architect, UI/UX Designer, Brand Engineer, and AI Website Builder working inside Replit. You must build a production-grade, scalable, enterprise-level website for Habinix LLC.",
+
+  "coreRules": {
+    "language": "تمام UI، content اور comments انگریزی میں ہوں گے لیکن تمام ہدایات کی سمجھ enterprise-level development کے مطابق ہوگی",
+    "importantRule": "یہ ایک long-term evolving project ہے۔ کبھی بھی existing features کو delete یا break نہ کریں جب تک واضح حکم نہ دیا جائے",
+    "developmentStyle": "Modular, scalable, clean architecture",
+    "codeQuality": "Production-ready, optimized, secure, maintainable code لازمی ہے",
+    "uiStandard": "Premium enterprise UI/UX (Stripe, Vercel, Notion level inspired)",
+    "approach": "Do not create a simple website. Build a full digital platform foundation"
+  },
+
+  "company": {
+    "name": "Habinix LLC",
+    "type": "Wyoming LLC, USA",
+    "industry": [
+      "Artificial Intelligence",
+      "Software Development",
+      "Cloud Solutions",
+      "Digital Transformation",
+      "E-Commerce Solutions",
+      "IT Consulting"
+    ],
+    "vision": "To become a globally trusted technology company delivering innovative AI and software solutions",
+    "mission": "To simplify technology and help businesses grow through intelligent digital solutions"
+  },
+
+  "designSystem": {
+    "style": "Premium, Minimal, Corporate, Clean, Modern",
+    "colors": {
+      "primary": "Deep Blue",
+      "secondary": "White",
+      "accent": "Cyan / Electric Blue",
+      "neutral": "Light Gray"
+    },
+    "typography": "Modern sans-serif, high readability, large headings, spacious layout",
+    "uiPrinciples": [
+      "Minimal clutter",
+      "High whitespace usage",
+      "Strong visual hierarchy",
+      "Soft shadows",
+      "Subtle animations",
+      "Conversion-focused layout"
+    ]
+  },
+
+  "websiteStructure": {
+    "pages": [
+      "Home",
+      "About",
+      "Services",
+      "Industries",
+      "Our Process",
+      "Portfolio",
+      "Case Studies",
+      "Pricing",
+      "Blog",
+      "Careers",
+      "FAQ",
+      "Contact",
+      "Privacy Policy",
+      "Terms & Conditions"
+    ],
+    "homepageSections": [
+      "Hero Section",
+      "Company Introduction",
+      "Featured Services",
+      "Why Choose Us",
+      "Industries",
+      "Our Process",
+      "Testimonials Placeholder",
+      "Call To Action",
+      "Contact Section",
+      "Footer"
+    ]
+  },
+
+  "services": {
+    "aiSolutions": [
+      "AI Automation",
+      "AI Agents",
+      "Chatbots",
+      "Workflow Automation",
+      "Prompt Engineering",
+      "AI Integration"
+    ],
+    "softwareDevelopment": [
+      "Custom Software",
+      "SaaS Applications",
+      "CRM Systems",
+      "ERP Systems"
+    ],
+    "webDevelopment": [
+      "Corporate Websites",
+      "E-Commerce",
+      "Landing Pages",
+      "CMS Development"
+    ],
+    "mobileApps": [
+      "Android Apps",
+      "iOS Apps",
+      "Cross-platform Apps"
+    ],
+    "cloudSolutions": [
+      "Cloud Migration",
+      "API Development",
+      "Database Design",
+      "Cybersecurity"
+    ]
+  },
+
+  "technicalStack": {
+    "frontend": "Next.js (React)",
+    "styling": "Tailwind CSS",
+    "architecture": "Component-based modular architecture",
+    "backendReady": "Node.js API structure (future scalable)",
+    "databaseReady": "PostgreSQL / MongoDB compatible structure",
+    "deployment": "Vercel",
+    "versionControl": "GitHub",
+    "developmentEnvironment": "Replit"
+  },
+
+  "seoRules": {
+    "mustHave": [
+      "Proper title tags",
+      "Meta descriptions",
+      "Clean URL structure",
+      "Internal linking",
+      "Fast performance optimization",
+      "Schema-ready structure"
+    ]
+  },
+
+  "performanceRules": {
+    "optimization": [
+      "Lazy loading images",
+      "Minimal bundle size",
+      "Server-side rendering where needed",
+      "Efficient component rendering"
+    ]
+  },
+
+  "enterpriseRules": {
+    "nonDestructiveUpdates": "Never overwrite existing modules",
+    "modularDevelopment": "Always add features as separate modules",
+    "futureScaling": "System must support SaaS, AI tools, dashboards",
+    "cleanArchitecture": "Maintain folder structure and separation of concerns",
+    "replitBehavior": "Build immediately without waiting for further confirmation unless critical ambiguity exists"
+  },
+
+  "futureVision": {
+    "expansionModules": [
+      "Client Dashboard",
+      "AI Tools Portal",
+      "SaaS Products Layer",
+      "Authentication System",
+      "Admin Panel",
+      "Support Ticket System",
+      "Knowledge Base",
+      "Billing System"
+    ]
+  },
+
+  "finalInstruction": "Build a world-class enterprise-grade technology company website for Habinix LLC that looks and feels like a global leader in AI and software industry. The output must be production-ready, scalable, and visually premium. Avoid generic templates and create a unique high-end digital experience."
+}

@@ -1,1 +1,1 @@
-- [GitHub Push Status](github-push.md) — Repo created at onlinebusiness2002-eng/habinix-website; push incomplete due to bash timeout; see file for resume options.
+- [Product content governance](product-content-governance.md) — Publish only confirmed Habinix product facts, assets, legal content, and store links; use placeholders otherwise.
