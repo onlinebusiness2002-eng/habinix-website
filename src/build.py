@@ -81,7 +81,7 @@ def page(path, title, description, body, active=None, noindex=False):
 <meta property="og:description" content="{e(description)}">
 <meta property="og:url" content="{canonical}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#06132a">
+<meta name="theme-color" content="#e6f0fd">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
