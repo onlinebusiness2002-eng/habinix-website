@@ -1,1 +1,0 @@
-- [Product content governance](product-content-governance.md) — Publish only confirmed Habinix product facts, assets, legal content, and store links; use placeholders otherwise.

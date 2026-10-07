@@ -1,9 +1,31 @@
 {
-  "buildCommand": "pnpm install && pnpm --filter @workspace/habinix exec vite build --config vite.config.vercel.ts",
-  "outputDirectory": "artifacts/habinix/dist",
-  "installCommand": "pnpm install",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/muftiyaan", "destination": "/products/muftiyaan/", "permanent": true },
+    { "source": "/muftiyaan/privacy-policy", "destination": "/products/muftiyaan/privacy/", "permanent": true },
+    { "source": "/muftiyaan/terms", "destination": "/products/muftiyaan/terms/", "permanent": true },
+    { "source": "/muftiyaan/support", "destination": "/products/muftiyaan/support/", "permanent": true },
+    { "source": "/muftiyaan/data-deletion", "destination": "/products/muftiyaan/data-deletion/", "permanent": true },
+    { "source": "/privacy-policy", "destination": "/privacy/", "permanent": true },
+    { "source": "/terms-and-conditions", "destination": "/terms/", "permanent": true },
+    { "source": "/products/:slug/privacy-policy", "destination": "/products/:slug/privacy/", "permanent": true },
+    { "source": "/support", "destination": "/contact/", "permanent": false }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
+      ]
+    }
   ]
 }

@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "mypdf",
+    "name": "MyPDF",
+    "kind": "Mobile app for iOS and Android",
+    "status": "soon",
+    "statusLabel": "In final development",
+    "summary": "A mobile app for working with PDF documents on your phone.",
+    "description": "MyPDF is Habinix's first mobile product: a focused app for handling PDF documents on iOS and Android. Full product details, screenshots and store links will be published here at launch.",
+    "features": [],
+    "platforms": ["Google Play", "Apple App Store"],
+    "legal": { "privacy": "pending", "terms": "pending", "support": true, "dataDeletion": false }
+  },
+  {
+    "slug": "muftiyaan",
+    "name": "Muftiyaan",
+    "kind": "Mobile app",
+    "status": "soon",
+    "statusLabel": "In development",
+    "summary": "A question-and-answer app that connects users with a reviewed panel of scholars.",
+    "description": "Muftiyaan lets users submit questions privately and receive answers from a reviewed scholarly board, with a searchable library of published answers.",
+    "features": [
+      { "title": "Private questions", "text": "Submit questions through a secure channel and track their status." },
+      { "title": "Reviewed answers", "text": "Answers come from an established, reviewed scholarly board." },
+      { "title": "Searchable library", "text": "Browse and search previously published answers." }
+    ],
+    "platforms": ["Google Play", "Apple App Store"],
+    "legal": { "privacy": "muftiyaan", "terms": "muftiyaan", "support": true, "dataDeletion": true }
+  },
+  {
+    "slug": "technix",
+    "name": "TECHNIX",
+    "kind": "AI media",
+    "status": "soon",
+    "statusLabel": "Launching soon",
+    "summary": "Practical videos on AI tools, AI news and AI agents, produced with our own AI production pipeline.",
+    "description": "TECHNIX is Habinix's AI media brand. It publishes practical, plain-language videos on AI tools, news and agents, and it runs on a production pipeline we built ourselves: scripting, AI presenter, editing and publishing with human approval at every step.",
+    "features": [
+      { "title": "AI tools, explained", "text": "Hands-on walkthroughs of tools people can use the same day." },
+      { "title": "AI news and agents", "text": "What changed this week and what it means in practice." },
+      { "title": "Built on our pipeline", "text": "An end-to-end video system designed and operated by Habinix." }
+    ],
+    "platforms": [],
+    "legal": { "privacy": "company", "terms": "company", "support": false, "dataDeletion": false }
+  },
+  {
+    "slug": "e-learning-platform",
+    "name": "E-learning platform",
+    "kind": "Web platform",
+    "status": "dev",
+    "statusLabel": "In development",
+    "summary": "An online learning platform for live classes, recorded lessons and student management.",
+    "description": "Our e-learning platform brings live classes, recorded lessons, enrolment and student records into one system that schools and training providers can run on their own brand.",
+    "features": [
+      { "title": "Live and recorded classes", "text": "Teach live, then publish the recording to enrolled students." },
+      { "title": "Enrolment and records", "text": "Applications, payments and student records in one place." },
+      { "title": "Your brand", "text": "Runs under the institution's own name and domain." }
+    ],
+    "platforms": ["Web"],
+    "legal": { "privacy": "company", "terms": "company", "support": false, "dataDeletion": false }
+  }
+]
