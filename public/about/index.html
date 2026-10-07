@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>About | Habinix</title>
 <meta name="description" content="Habinix LLC is an IT consulting and digital solutions company registered in Wyoming, USA.">
 <link rel="canonical" href="https://habinix.com/about/">
@@ -12,38 +12,35 @@
 <meta property="og:title" content="About | Habinix">
 <meta property="og:description" content="Habinix LLC is an IT consulting and digital solutions company registered in Wyoming, USA.">
 <meta property="og:url" content="https://habinix.com/about/">
-<meta property="og:image" content="https://habinix.com/assets/og.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0B2545">
+<meta name="theme-color" content="#06132a">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
+<div class="scene" aria-hidden="true"><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div><div class="orb o4"></div><div class="grain"></div></div>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
-  <div class="wrap">
-    <a class="brand" href="/" aria-label="Habinix home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="3" fill="#0B2545"/><path d="M9 7v18M23 7v18M9 16h14" stroke="#fff" stroke-width="3.2" stroke-linecap="square"/><path d="M23 7h3" stroke="#8A94A6" stroke-width="3.2"/></svg><span>HABINIX</span></a>
+  <div class="bar glass">
+    <a class="brand" href="/" aria-label="Habinix home"><svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="hxg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d4f8f"/><stop offset="1" stop-color="#0B2545"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#hxg)"/><rect x=".5" y=".5" width="31" height="31" rx="8.5" fill="none" stroke="rgba(255,255,255,.35)"/><path d="M10 8v16M22 8v16M10 16h12" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg><span>HABINIX</span></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav" aria-label="Main"><a href="/services/">Services</a><a href="/products/">Products</a><a href="/how-we-work/">How we work</a><a href="/about/" aria-current="page">About</a><a class="btn" href="/contact/">Start a project</a></nav>
   </div>
 </header>
 <main id="main">
-<section class="page-head"><div class="wrap"><h1>About Habinix</h1><p>An IT consulting and digital solutions company building websites, mobile apps and AI-powered systems for businesses worldwide.</p></div></section>
+<section class="page-head"><div class="wrap reveal"><h1>About Habinix</h1><p>An IT consulting and digital solutions company building websites, mobile apps and AI-powered systems for businesses worldwide.</p></div></section>
 <section class="section"><div class="wrap split">
-  <div class="prose">
-    <h2 style="margin-top:0">Who we are</h2>
+  <div class="glass panel prose reveal">
+    <h2>Who we are</h2>
     <p>Habinix is a technology company. We help organisations plan, build and run the software their business depends on, from a first website to multi-platform products with AI at their core.</p>
     <p>We also build and operate products of our own. Running our own apps keeps our standards honest: the practices we recommend to clients are the ones we rely on every day.</p>
-    <h2>What we stand for</h2>
-    <p><strong>Precision.</strong> Clear scope, careful engineering and work that is checked before it ships.</p>
-    <p><strong>Scale.</strong> Systems designed to grow with your users, markets and languages.</p>
-    <p><strong>Reliability.</strong> Software that stays up, stays secure and stays maintainable.</p>
   </div>
-  <div>
-    <h2 style="font-size:var(--step-2);margin-bottom:24px">Company facts</h2>
+  <div class="glass panel reveal" style="--i:1">
+    <h2 style="font-size:var(--step-2);margin-bottom:22px">Company facts</h2>
     <dl class="facts">
       <dt>Legal name</dt><dd>Habinix LLC</dd>
       <dt>Entity</dt><dd>Limited Liability Company</dd>
@@ -55,17 +52,23 @@
     </dl>
   </div>
 </div></section>
-<section class="section tint"><div class="wrap cta">
-  <div><h2>Work with Habinix</h2><p>Tell us about your project and we'll take it from there.</p></div>
-  <a class="btn" href="/contact/">Start a project</a>
+<section class="section"><div class="wrap">
+  <div class="head reveal"><h2>What we stand for</h2><p>Three words that decide how we work.</p></div>
+  <div class="grid g3"><div class="card glass reveal" style="--i:0"><h3>Precision</h3><p>Clear scope, careful engineering and work that is checked before it ships.</p></div><div class="card glass reveal" style="--i:1"><h3>Scale</h3><p>Systems designed to grow with your users, markets and languages.</p></div><div class="card glass reveal" style="--i:2"><h3>Reliability</h3><p>Software that stays up, stays secure and stays maintainable.</p></div></div>
+</div></section>
+<section class="section"><div class="wrap">
+  <div class="cta glass reveal">
+    <div><h2>Work with Habinix</h2><p>Tell us about your project and we'll take it from there.</p></div>
+    <a class="btn" href="/contact/">Start a project</a>
+  </div>
 </div></section>
 </main>
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-grid">
+  <div class="foot glass reveal">
+    <div class="foot-grid">
       <div>
-        <a class="brand" href="/" aria-label="Habinix home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="3" fill="#0B2545"/><path d="M9 7v18M23 7v18M9 16h14" stroke="#fff" stroke-width="3.2" stroke-linecap="square"/><path d="M23 7h3" stroke="#8A94A6" stroke-width="3.2"/></svg><span>HABINIX</span></a>
-        <p>IT consulting and digital solutions. Websites, mobile apps and AI-powered systems for businesses.</p>
+        <a class="brand" href="/" aria-label="Habinix home"><svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="hxg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d4f8f"/><stop offset="1" stop-color="#0B2545"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#hxg)"/><rect x=".5" y=".5" width="31" height="31" rx="8.5" fill="none" stroke="rgba(255,255,255,.35)"/><path d="M10 8v16M22 8v16M10 16h12" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg><span>HABINIX</span></a>
+        <p>IT consulting and digital solutions. Websites, mobile apps and AI-powered systems for businesses worldwide.</p>
       </div>
       <div><h4>Company</h4><ul>
         <li><a href="/services/">Services</a></li>
@@ -78,13 +81,10 @@
     </div>
     <div class="legal">
       <span>© 2026 Habinix LLC. Registered in Wyoming, USA.</span>
-      <span><a href="/privacy/">Privacy policy</a> &nbsp; <a href="/terms/">Terms of use</a></span>
+      <span><a href="/privacy/">Privacy policy</a><a href="/terms/">Terms of use</a></span>
     </div>
   </div>
 </footer>
-<script>
-(function(){var b=document.querySelector('.menu-toggle'),n=document.getElementById('nav');
-if(!b||!n)return;b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');b.textContent=o?'Close':'Menu';});})();
-</script>
+<script src="/assets/site.js" defer></script>
 </body>
 </html>
